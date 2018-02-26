@@ -1,0 +1,27 @@
+%0 Electronic Article
+%T iCaRL: Incremental Classifier and Representation Learning
+%A Rebuffi, Sylvestre-Alvise 
+%A Kolesnikov, Alexander 
+%A Sperl, Georg 
+%A Lampert, Christoph H.
+%B ArXiv e-prints
+%V 1611
+%D 2016
+%8 November 1, 2016
+%K Computer Science - Computer Vision and Pattern Recognition;  Computer Science - Learning;  Statistics - Machine Learning
+%U http://adsabs.harvard.edu/abs/2016arXiv161107725R
+%Z Accepted paper at CVPR 2017
+%X A major open problem on the road to artificial intelligence is the 
+development of incrementally learning systems that learn about more and 
+more concepts over time from a stream of data. In this work, we 
+introduce a new training strategy, iCaRL, that allows learning in such a 
+class-incremental way: only the training data for a small number of 
+classes has to be present at the same time and new classes can be added 
+progressively. iCaRL learns strong classifiers and a data representation 
+simultaneously. This distinguishes it from earlier works that were 
+fundamentally limited to fixed data representations and therefore 
+incompatible with deep learning architectures. We show by experiments on 
+CIFAR-100 and ImageNet ILSVRC 2012 data that iCaRL can learn many 
+classes incrementally over a long period of time where other strategies 
+quickly fail.
+%= eprint: arXiv:1611.07725
