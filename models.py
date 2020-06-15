@@ -4,7 +4,7 @@
 from layers import *
 from metrics import *
 
-flags = tf.app.flags
+flags2 = tf.app.flags
 FLAGS = flags.FLAGS
 
 
