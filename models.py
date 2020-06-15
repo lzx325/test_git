@@ -1,10 +1,10 @@
 # from gcn.layers import *
 # from gcn.metrics import *
-# lizx changed to: 
+# lizx changed to:
 from layers import *
 from metrics import *
 
-flags = tf.app.flags
+flags2 = tf.app.flags
 FLAGS = flags.FLAGS
 
 
