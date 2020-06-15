@@ -1,6 +1,6 @@
 # from gcn.layers import *
 # from gcn.metrics import *
-# lizx changed to: 
+# lizx changed to:
 from layers import *
 from metrics import *
 
@@ -176,5 +176,5 @@ class GCN(Model):
                                             dropout=True,
                                             logging=self.logging))
 
-    def predict(self):
+    def predict2(self):
         return tf.nn.softmax(self.outputs)
